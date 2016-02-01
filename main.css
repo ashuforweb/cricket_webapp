@@ -1,67 +1,58 @@
 body {
   font-family: "Roboto", sans-serif;
 }
-
 button {
   outline: none;
 }
-
 .btn {
   font-size: 20px;
   font-weight: bold;
-
-  color: rgba(255, 255, 255, 1);
+  /*color: rgba(255, 255, 255, 1);*/
   height: 50px;
   width: 50px;
   cursor: pointer;
 }
-
-.btn-undo{
+.btn-undo {
   font-size: 20px;
   font-weight: bold;
   color: rgba(255, 255, 255, 1);
   height: 50px;
   width: 100%;
   cursor: pointer;
-
 }
 .btn-blue {
   border: 1px solid rgb(60, 100, 255);
-  background-color: rgb(65, 135, 245);
+  background-color: rgb(5, 170, 245);
 }
-
 .btn-yellow {
   border: 1px solid rgb(250, 150, 5);
-  background-color: rgb(250, 185, 5);
-
+  background-color: rgb(251, 188, 5);
 }
-
 .btn-red {
-  border: 1px solid rgb(235, 35, 55);
+  border: 1px solid rgb(205, 35, 55);
   background-color: rgb(235, 65, 55);
 }
-.btn-green{
+.btn-green {
   border: 1px solid rgb(50, 165, 85);
   background-color: rgb(50, 165, 85);
 }
-
 .cell {
   padding: 0px;
 }
-
 .row {
   padding: 0px;
-  /*border-top: 2px solid rgb(70, 100, 160);
-  border-left: 2px solid rgb(70, 100, 160);
-  border-rght: 2px solid rgb(70, 100, 160);
-  border-bottom: 1px solid rgb(70, 100, 160);*/
 }
-
 .tbl {
-  /*border: 1px solid rgb(70, 100, 160);*/
   border-collapse: collapse;
 }
-
+.tme {
+  /*height: 48px;*/
+  border: 1px solid rgb(60, 100, 255);
+  background-color: rgb(5, 170, 245);
+}
+#tme{
+  text-align: center;
+}
 .scr {
   /*border: 1px solid rgb(40, 175, 60);*/
   color: rgba(255, 255, 255, 1);
@@ -71,45 +62,14 @@ button {
   text-align: center;
   height: 50px;
   font-size: 30px;
-  text-shadow: rgb(50, 145, 30) 1px 1px,
-    rgb(50, 145, 30) 2px 2px,
-    rgb(50, 145, 30) 3px 3px,
-    rgb(50, 145, 30) 4px 4px,
-    rgb(50, 145, 30) 5px 5px,
-    rgb(50, 145, 30) 6px 6px,
-    rgb(50, 145, 30) 7px 7px,
-    rgb(50, 145, 30) 8px 8px,
-    rgb(50, 145, 30) 9px 9px,
-    rgb(50, 145, 30) 10px 10px,
-    rgb(50, 145, 30) 11px 11px,
-    rgb(50, 145, 30) 12px 12px,
-    rgb(50, 145, 30) 13px 13px,
-    rgb(50, 145, 30) 14px 14px,
-    rgb(50, 145, 30) 15px 15px,
-    rgb(50, 145, 30) 16px 16px,
-    rgb(50, 145, 30) 17px 17px,
-    rgb(50, 145, 30) 18px 18px,
-    rgb(50, 145, 30) 19px 19px,
-    rgb(50, 145, 30) 20px 20px,
-    rgb(50, 145, 30) 21px 21px,
-    rgb(50, 145, 30) 22px 22px,
-    rgb(50, 145, 30) 23px 23px,
-    rgb(50, 145, 30) 24px 24px,
-    rgb(50, 145, 30) 25px 25px,
-    rgb(50, 145, 30) 26px 26px,
-    rgb(50, 145, 30) 27px 27px,
-    rgb(50, 145, 30) 28px 28px,
-    rgb(50, 145, 30) 29px 29px,
-    rgb(50, 145, 30) 30px 30px;
-
+  text-shadow: rgb(50, 145, 30) 1px 1px, rgb(50, 145, 30) 2px 2px, rgb(50, 145, 30) 3px 3px, rgb(50, 145, 30) 4px 4px, rgb(50, 145, 30) 5px 5px, rgb(50, 145, 30) 6px 6px, rgb(50, 145, 30) 7px 7px, rgb(50, 145, 30) 8px 8px, rgb(50, 145, 30) 9px 9px, rgb(50, 145, 30) 10px 10px, rgb(50, 145, 30) 11px 11px, rgb(50, 145, 30) 12px 12px, rgb(50, 145, 30) 13px 13px, rgb(50, 145, 30) 14px 14px, rgb(50, 145, 30) 15px 15px, rgb(50, 145, 30) 16px 16px, rgb(50, 145, 30) 17px 17px, rgb(50, 145, 30) 18px 18px, rgb(50, 145, 30) 19px 19px, rgb(50, 145, 30) 20px 20px, rgb(50, 145, 30) 21px 21px, rgb(50, 145, 30) 22px 22px, rgb(50, 145, 30) 23px 23px, rgb(50, 145, 30) 24px 24px, rgb(50, 145, 30) 25px 25px, rgb(50, 145, 30) 26px 26px, rgb(50, 145, 30) 27px 27px, rgb(50, 145, 30) 28px 28px, rgb(50, 145, 30) 29px 29px, rgb(50, 145, 30) 30px 30px;
 }
-
-
 .material-icons {
   font-family: 'Material Icons';
   font-weight: normal;
   font-style: normal;
-  font-size: 24px;  /* Preferred icon size */
+  font-size: 24px;
+  /* Preferred icon size */
   display: inline-block;
   width: 1em;
   height: 1em;
@@ -119,15 +79,12 @@ button {
   word-wrap: normal;
   white-space: nowrap;
   direction: ltr;
-
   /* Support for all WebKit browsers. */
   -webkit-font-smoothing: antialiased;
   /* Support for Safari and Chrome. */
   text-rendering: optimizeLegibility;
-
   /* Support for Firefox. */
   -moz-osx-font-smoothing: grayscale;
-
   /* Support for IE. */
   font-feature-settings: 'liga';
 }
