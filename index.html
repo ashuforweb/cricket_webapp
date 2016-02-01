@@ -1,10 +1,110 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Cricket Webapps</title>
-  </head>
-  <body>
 
-  </body>
+<head>
+  <meta charset="utf-8">
+  <title>Cricket Webapps</title>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+  <style media="screen">
+    body {
+      font-family: "Roboto", sans-serif;
+    }
+
+    .btn {
+      font-size: 20px;
+      font-weight: bold;
+      border: 1px solid rgb(70, 100, 160);
+      color: rgba(255, 255, 255, 1);
+      height: 50px;
+      width: 50px;
+      cursor: pointer;
+    }
+
+    .btn-blue {
+      background-color: rgb(65, 135, 245);
+    }
+
+    .btn-yellow {
+      background-color: rgb(250, 185, 5);
+    }
+
+    .btn-red {
+      background-color: rgb(235, 65, 55);
+    }
+
+    .cell {
+      padding: 0px;
+    }
+
+    .row {
+      padding: 0px;
+      border-top: 2px solid rgb(70, 100, 160);
+      border-left: 2px solid rgb(70, 100, 160);
+      border-rght: 2px solid rgb(70, 100, 160);
+      border-bottom: 1px solid rgb(70, 100, 160);
+    }
+
+    .tbl {
+      border: 1px solid rgb(70, 100, 160);
+      border-collapse: collapse;
+    }
+
+    .scr {
+      font-size: 18px;
+    }
+  </style>
+</head>
+
+<body>
+  <table class="tbl">
+    <tr>
+      <td colspan="4" class="cell">
+
+      </td>
+    </tr>
+    <tr>
+      <td class="cell">
+        <button type="button" class="btn btn-yellow" name="button">BYE</button>
+      </td>
+      <td class="cell">
+        <button type="button" class="btn btn-yellow" name="button">Lb</button>
+      </td>
+      <td class="cell">
+        <button type="button" class="btn btn-blue" name="button">5</button>
+      </td>
+      <td class="cell">
+        <button type="button" class="btn btn-red" name="button">Wk</button>
+      </td>
+    </tr>
+    <tr>
+      <td class="cell">
+        <button type="button" class="btn btn-yellow" name="button">Nb</button>
+      </td>
+      <td class="cell">
+        <button type="button" class="btn btn-blue" name="button">3</button>
+      </td>
+      <td class="cell">
+        <button type="button" class="btn btn-blue" name="button">6</button>
+      </td>
+      <td class="cell">
+        <button type="button" class="btn btn-blue" name="button">4</button>
+      </td>
+    </tr>
+    <tr>
+      <td class="cell">
+        <button type="button" class="btn btn-yellow" name="button">Wd</button>
+      </td>
+      <td class="cell">
+        <button type="button" class="btn btn-blue" name="button">2</button>
+      </td>
+      <td class="cell">
+        <button type="button" class="btn btn-blue" name="button">1</button>
+      </td>
+      <td class="cell">
+        <button type="button" class="btn btn-blue" name="button">0</button>
+      </td>
+    </tr>
+  </table>
+</body>
+
 </html>
