@@ -1,9 +1,11 @@
 body {
   font-family: "Roboto", sans-serif;
 }
- button{
-   outline: none;
- }
+
+button {
+  outline: none;
+}
+
 .btn {
   font-size: 20px;
   font-weight: bold;
@@ -44,9 +46,42 @@ body {
 }
 
 .scr {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(50, 165, 85, 1);
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   text-align: center;
   height: 50px;
-  font-size: 18px;
+  font-size: 30px;
+  text-shadow: rgb(50, 145, 30) 1px 1px,
+    rgb(50, 145, 30) 2px 2px,
+    rgb(50, 145, 30) 3px 3px,
+    rgb(50, 145, 30) 4px 4px,
+    rgb(50, 145, 30) 5px 5px,
+    rgb(50, 145, 30) 6px 6px,
+    rgb(50, 145, 30) 7px 7px,
+    rgb(50, 145, 30) 8px 8px,
+    rgb(50, 145, 30) 9px 9px,
+    rgb(50, 145, 30) 10px 10px,
+    rgb(50, 145, 30) 11px 11px,
+    rgb(50, 145, 30) 12px 12px,
+    rgb(50, 145, 30) 13px 13px,
+    rgb(50, 145, 30) 14px 14px,
+    rgb(50, 145, 30) 15px 15px,
+    rgb(50, 145, 30) 16px 16px,
+    rgb(50, 145, 30) 17px 17px,
+    rgb(50, 145, 30) 18px 18px,
+    rgb(50, 145, 30) 19px 19px,
+    rgb(50, 145, 30) 20px 20px,
+    rgb(50, 145, 30) 21px 21px,
+    rgb(50, 145, 30) 22px 22px,
+    rgb(50, 145, 30) 23px 23px,
+    rgb(50, 145, 30) 24px 24px,
+    rgb(50, 145, 30) 25px 25px,
+    rgb(50, 145, 30) 26px 26px,
+    rgb(50, 145, 30) 27px 27px,
+    rgb(50, 145, 30) 28px 28px,
+    rgb(50, 145, 30) 29px 29px,
+    rgb(50, 145, 30) 30px 30px;
+
 }
