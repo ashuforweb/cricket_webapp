@@ -1,3 +1,5 @@
+var runs = 0;
+var wickets = 0;
 window.onload = function(){
-  document.getElementById("scr").innerHTML = 0+"/"+0;
+  document.getElementById("scr").innerHTML = runs+"/"+wickets;
 };
