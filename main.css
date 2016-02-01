@@ -9,23 +9,40 @@ button {
 .btn {
   font-size: 20px;
   font-weight: bold;
-  border: 1px solid rgb(70, 100, 160);
+
   color: rgba(255, 255, 255, 1);
   height: 50px;
   width: 50px;
   cursor: pointer;
 }
 
+.btn-undo{
+  font-size: 20px;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 1);
+  height: 50px;
+  width: 100%;
+  cursor: pointer;
+
+}
 .btn-blue {
+  border: 1px solid rgb(60, 100, 255);
   background-color: rgb(65, 135, 245);
 }
 
 .btn-yellow {
+  border: 1px solid rgb(250, 150, 5);
   background-color: rgb(250, 185, 5);
+
 }
 
 .btn-red {
+  border: 1px solid rgb(235, 35, 55);
   background-color: rgb(235, 65, 55);
+}
+.btn-green{
+  border: 1px solid rgb(50, 165, 85);
+  background-color: rgb(50, 165, 85);
 }
 
 .cell {
@@ -34,18 +51,19 @@ button {
 
 .row {
   padding: 0px;
-  border-top: 2px solid rgb(70, 100, 160);
+  /*border-top: 2px solid rgb(70, 100, 160);
   border-left: 2px solid rgb(70, 100, 160);
   border-rght: 2px solid rgb(70, 100, 160);
-  border-bottom: 1px solid rgb(70, 100, 160);
+  border-bottom: 1px solid rgb(70, 100, 160);*/
 }
 
 .tbl {
-  border: 1px solid rgb(70, 100, 160);
+  /*border: 1px solid rgb(70, 100, 160);*/
   border-collapse: collapse;
 }
 
 .scr {
+  /*border: 1px solid rgb(40, 175, 60);*/
   color: rgba(255, 255, 255, 1);
   background-color: rgba(50, 165, 85, 1);
   font-family: "Roboto", sans-serif;
@@ -84,4 +102,32 @@ button {
     rgb(50, 145, 30) 29px 29px,
     rgb(50, 145, 30) 30px 30px;
 
+}
+
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
 }
